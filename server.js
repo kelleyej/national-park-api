@@ -89,7 +89,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Moab",
         "image": "https://images.ctfassets.net/0wjmk6wgfops/4xH7cd136DErUNwb5AbBi4/6256c8432bb2ec353bd79a995ab38a59/Canyonalands_National_Park_5291b211-81b6-4c3a-b2bd-3524994b1c9d.jpg?q=70",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/canyonlands-national-park-coyote/2715-medium.jpg"
     },
     {
         "id": 10,
@@ -98,7 +98,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Torrey",
         "image": "https://capitolreefcountry.com/wp-content/uploads/2021/04/Fruita-District-1200-x-800.jpg",
-        "visited": false
+        "visited": "https://i.pinimg.com/1200x/0a/bb/71/0abb71d3a5def39841474ee97ac5230f.jpg"
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Carlsbad",
         "image": "https://cdn.aarp.net/content/dam/aarp/travel/national-parks/2022/12/1140-carlsbad-caverns-interior.jpg",
-        "visited": false
+        "visited": "https://ih1.redbubble.net/image.2428242743.1438/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
         "id": 12,
@@ -116,7 +116,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Ventura",
         "image": "https://i.natgeofe.com/n/77da8c99-8278-4eb3-8a7b-75a0044355af/resized-NationalGeographic_2206862_2x1.jpg",
-        "visited": false
+        "visited": "https://ih1.redbubble.net/image.2901542436.3714/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
         "id": 13,
@@ -125,7 +125,7 @@ app.locals.locations = [
         "region": "Southeast",
         "city": "Hopkins",
         "image": "https://www.southernliving.com/thmb/Nz1gx0a6eEXVuZv8j1J73-azPxA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/congaree_boardwalk_trail_2462202_85-1-c6f12d8ef71e4cec9edf7a336906849c.jpg",
-        "visited": false
+        "visited": "https://ih1.redbubble.net/image.2901562744.4257/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
         "id": 14,
@@ -134,7 +134,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Crater Lake",
         "image": "https://www.gamewarden.org/wp-content/uploads/2015/06/Dollarphotoclub_35150878-640x427.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/crater-lake-national-park-watchman-trail/3226-medium.jpg"
     },
     {
         "id": 15,
@@ -143,7 +143,7 @@ app.locals.locations = [
         "region": "Midwest",
         "city": "Peninsula",
         "image": "https://cdn.outsideonline.com/wp-content/uploads/2022/03/cuyahoga-valley-national-park_h.jpg",
-        "visited": false
+        "visited": "https://m.media-amazon.com/images/I/816jaiUqWtL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "id": 16,
@@ -152,7 +152,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Furnace Creek",
         "image": "https://npf-prod.imgix.net/uploads/death-valley-istock.jpg?auto=compress%2Cformat&fit=max&q=80&w=1600",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/death-valley-national-park-living-it-up-kc/2115-medium.jpg"
     },
     {
         "id": 17,
@@ -161,7 +161,7 @@ app.locals.locations = [
         "region": "Alaska",
         "city": "Denali",
         "image": "https://themilepost.com/wp-content/uploads/2015/03/pg427-NPS-Photo-scaled.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/denali-national-park-moose/3038-medium.jpg"
     },
     {
         "id": 18,
@@ -170,7 +170,7 @@ app.locals.locations = [
         "region": "Southeast",
         "city": "Key West",
         "image": "https://i.natgeofe.com/n/cdee4237-382b-4ce3-a382-e31d0102a825/fortjefferson-drytortugas-florida_16x9.jpg?w=1200",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/dry-tortugas-national-park-lighthouse/1666-medium.jpg"
     },
     {
         "id": 19,
@@ -179,7 +179,7 @@ app.locals.locations = [
         "region": "Southeast",
         "city": "Homestead",
         "image": "https://www.southernliving.com/thmb/bu1B5-nm64z5WO2iz6mg6Y2GLCI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1216404158-ef6d83a2a48e4e4c8ffe4a3c836a155c.jpg",
-        "visited": false
+        "visited": "https://i.pinimg.com/originals/9c/31/f8/9c31f88aa16c79c7b6ea228d3c8d0101.jpg"
     },
     {
         "id": 20,
@@ -188,7 +188,7 @@ app.locals.locations = [
         "region": "Alaska",
         "city": "Coldfoot",
         "image": "https://www.nps.gov/common/uploads/grid_builder/gaar/crop16_9/FE6863E0-1DD8-B71B-0B4E9A34F681735C.jpg?width=640&quality=90&mode=crop",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/gates-of-the-arctic-national-park/1663-medium.jpg"
     },
     {
         "id": 21,
@@ -197,7 +197,7 @@ app.locals.locations = [
         "region": "Midwest",
         "city": "St. Louis",
         "image": "https://afar.brightspotcdn.com/dims4/default/5d8cd0c/2147483647/strip/false/crop/1900x1267+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2F56%2F58%2F95a33bbf1bb47d535be0c0bb270f%2Foriginal-c07a2d169f29f58b9af7666d94661776.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/gateway-arch-national-park-birds-eye-view/3442-medium.jpg"
     },
     {
         "id": 22,
@@ -206,7 +206,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "West Glacier",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg/1200px-2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg",
-        "visited": false
+        "visited": "https://m.media-amazon.com/images/I/71SZb38puuL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "id": 23,
@@ -215,7 +215,7 @@ app.locals.locations = [
         "region": "Alaska",
         "city": "Gustavus",
         "image": "https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2016-10/Glacier%20Bay.jpg?h=d72c0ddd&itok=V8OPRhhE",
-        "visited": false
+        "visited": "https://static.displate.com/270x380/displate/2021-09-07/f0a88d090e06a9138dde3665e45eb9c8_ff4d03f1c3566608bbf014f102e88f7a.jpg"
     },
     {
         "id": 24,
@@ -224,7 +224,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Grand Canyon Village",
         "image": "https://fh-sites.imgix.net/sites/4735/2021/07/31173956/Untitled-design-2021-07-31T133906.903.png?auto=compress%2Cformat&w=1000&h=1000&fit=max",
-        "visited": false
+        "visited": "https://www.magicmurals.com/media/amasty/webp/catalog/product/cache/155d73b570b90ded8a140526fcb8f2da/A/L/ALJOEAND116280_1_jpg.webp"
     },
     {
         "id": 25,
@@ -233,7 +233,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Jackson",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFmFlEKlHuj-ue4vOs4RA17QuyeAh4bXfgi__U7DCXA&s",
-        "visited": false
+        "visited": "https://ih1.redbubble.net/image.1925778753.9691/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
         "id": 26,
@@ -242,7 +242,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Baker",
         "image": "https://cdn.aarp.net/content/dam/aarp/travel/national-parks/2022/04/1140-great-basin-hero.jpg",
-        "visited": false
+        "visited": "https://ih1.redbubble.net/image.2528681623.3106/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
         "id": 27,
@@ -251,7 +251,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Mosca",
         "image": "https://www.colorado.com/sites/default/files/styles/slideshow_slide_xxsmall/public/legacy_drupal_7_images/sandunes_nps.jpg.webp?itok=IcrMHWtl",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/great-sand-dunes-national-park-shifting-hills/3093-medium.jpg"
     },
     {
         "id": 28,
@@ -260,7 +260,7 @@ app.locals.locations = [
         "region": "Southeast",
         "city": "Gatlinburg",
         "image": "https://www.sidneyjames.com/media/62f0cb7671157abd5a4ec4c0/original.webp",
-        "visited": false
+        "visited": "https://m.media-amazon.com/images/I/71CvgDrhwXL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "id": 29,
