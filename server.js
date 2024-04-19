@@ -557,7 +557,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Yosemite Valley",
         "image": "https://www.hertz.com/content/dam/hertz/global/blog-articles/planning-a-trip/yosemite/Yosemite-National-Park-Header.rendition.medium.jpg",
-        "visited": "https://129385797.cdn6.editmysite.com/uploads/1/2/9/3/129385797/s303704766893383711_p23_i1_w2560.jpeg?width=2400&optimize=medium"
+        "visited": "https://ih1.redbubble.net/image.1296799813.4323/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
         "id": 62,
