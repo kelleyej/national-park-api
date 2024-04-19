@@ -4,11 +4,8 @@ app.use(express.json());
 const cors = require('cors');
 
 app.set('port', process.env.PORT || 3000);
-app.use(cors({
-    origin: 'http://localhost:3001'
-  }));
+app.use(cors());
   
-
 app.locals.locations = [
     {
         "id": 1,
