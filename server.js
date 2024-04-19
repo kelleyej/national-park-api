@@ -269,7 +269,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Salt Flat",
         "image": "https://i.natgeofe.com/n/74eb6b34-073c-40ac-a5a0-670dae43cd02/guadalupe-mountains-national-park-590_2x1.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/guadalupe-mountains-national-park-early-bird/2666-medium.jpg"
     },
     {
         "id": 30,
@@ -278,7 +278,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Kula",
         "image": "https://cdn.outsideonline.com/wp-content/uploads/2022/12/haleakala-crater-slidingsands_h.jpg",
-        "visited": false
+        "visited": "https://static.displate.com/857x1200/displate/2021-01-01/edb5057e5a835eadc868d4ef9ff76dd3_b887ec5605c0df3940a1a4747310b0b2.jpg"
     },
     {
         "id": 31,
@@ -287,7 +287,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Volcano",
         "image": "https://i.natgeofe.com/k/4ab71fc1-36e0-49c8-a382-fd02ee37a1a5/Hawaii-flowing-lava_16x9.jpg?w=1200",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/hawai-i-volcanoes-national-park/1326-medium.jpg"
     },
     {
         "id": 32,
@@ -296,7 +296,7 @@ app.locals.locations = [
         "region": "Midwest",
         "city": "Hot Springs",
         "image": "https://www.travelandleisure.com/thmb/fQoDKxd0on8atscufvyhndLcihA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/waterfall-HOTSPRINGS0117-26beda2a26f543f49fce2df482eb218c.jpg",
-        "visited": false
+        "visited": "https://static.displate.com/270x380/displate/2021-04-01/e5d89083d13ee5561b7492261a8c1c60_c54cc0a523cef52732ed4ecc4197d9a8.jpg"
     },
     {
         "id": 33,
@@ -305,7 +305,7 @@ app.locals.locations = [
         "region": "Midwest",
         "city": "Chesterton",
         "image": "https://media.cntraveler.com/photos/5c6c25735ac5fd121f4375a1/16:9/w_4000,h_2250,c_limit/Indiana-Dunes-Nat'l-Park_A7DC44.jpg",
-        "visited": false
+        "visited": "https://ih1.redbubble.net/image.2267737849.8896/fposter,small,wall_texture,square_product,600x600.jpg"
     },
     {
         "id": 34,
@@ -314,7 +314,7 @@ app.locals.locations = [
         "region": "Midwest",
         "city": "Houghton",
         "image": "https://www.rei.com/assets/adventures/images/trip/gallery/northamerica/irk_08/live.jpg",
-        "visited": false
+        "visited": "https://m.media-amazon.com/images/I/61QQjyJA-qL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "id": 35,
@@ -323,7 +323,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Twentynine Palms",
         "image": "https://i0.wp.com/www.mattandkaren.com/wp-content/uploads/2024/02/0a07ea.jpg?resize=1873%2C1200&ssl=1",
-        "visited": false
+        "visited": "https://ih1.redbubble.net/image.4181389847.8600/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
         "id": 36,
@@ -332,7 +332,7 @@ app.locals.locations = [
         "region": "Alaska",
         "city": "King Salmon",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Katmai_Crater_1980.jpg/1200px-Katmai_Crater_1980.jpg",
-        "visited": false
+        "visited": "https://m.media-amazon.com/images/I/71hI+wdmSgL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "id": 37,
@@ -341,7 +341,7 @@ app.locals.locations = [
         "region": "Alaska",
         "city": "Seward",
         "image": "https://www.travelalaska.com/sites/default/files/2021-12/Destinations_ParksPublicLands_Kenai%20Fjords%20National%20Park_Hero_%28Makayla%20Crump%29.jpg",
-        "visited": false
+        "visited": "https://static.displate.com/857x1200/displate/2021-10-10/7105a6d4b473e8bf754d1704ffa09a2a_0613f3e4c70079ecd987e39a613010ef.jpg"
     },
     {
         "id": 38,
@@ -350,7 +350,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Three Rivers",
         "image": "https://res.cloudinary.com/simpleview/image/upload/v1654809567/clients/fresnoca/Kings_Canyon_Rae_Lakes_AlexanderHadik_e9156d63-72a0-4168-a798-71a0f5051595.jpg",
-        "visited": false
+        "visited": "https://m.media-amazon.com/images/I/71UriGL+yFL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "id": 39,
@@ -359,7 +359,7 @@ app.locals.locations = [
         "region": "Alaska",
         "city": "Kotzebue",
         "image": "https://images.squarespace-cdn.com/content/v1/564d14dfe4b0290681184a82/1478818179627-IYBN319R96U9OMVI81WI/Kobuk+Valley+National+Park+-+002.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/kobuk-valley-national-park-wolves/3253-medium.jpg"
     },
     {
         "id": 40,
@@ -368,7 +368,7 @@ app.locals.locations = [
         "region": "Alaska",
         "city": "Port Alsworth",
         "image": "https://www.nps.gov/articles/images/LACL_Crescent-Lake_web.jpg?maxwidth=1300&autorotate=false",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/lakeclarknationalparkmoonlighting/2994-medium.jpg"
     },
     {
         "id": 41,
@@ -377,7 +377,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Mineral", 
         "image": "https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/vc_ca101_nationalparks_lassenvolcanic_manzanitalake_rf_628846294_1280x640.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/lassen-volcanic/1657-medium.jpg"
     },
     {
         "id": 42,
@@ -386,7 +386,7 @@ app.locals.locations = [
         "region": "Midwest",
         "city": "Mammoth Cave",
         "image": "https://www.worldatlas.com/upload/40/5e/65/shutterstock-1847679637.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/mammoth-cave-national-park/1611-medium.jpg"
     },
     {
         "id": 43,
@@ -395,7 +395,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Mancos",
         "image": "https://www.adventurousway.com/images/i/hvwfexwa700b/2000w/national-parks/mesa-verde-national-park/mesa-verde-national-park.jpeg",
-        "visited": false
+        "visited": "https://www.mesaverde.org/sites/mesaverde.org/files/imagecache/lightbox_full/isbn_images/cliff%20palace%20retro.jpg"
     },
     {
         "id": 44,
