@@ -573,6 +573,10 @@ app.locals.locations = [
 
 app.locals.title = 'National Parks';
 
+app.get('/', (req,res) => {
+    res.send('Express on Vercel')
+})
+
 app.get('/api/v1/locations', (request, response) => {
    const locations = app.locals.locations;
 
@@ -645,3 +649,5 @@ app.get('/api/v1/locations/:id', (request, response) => {
 app.listen(app.get('port'), () => {
     console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
 })
+
+module.exports = app; 
