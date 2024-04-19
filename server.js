@@ -574,7 +574,7 @@ app.locals.locations = [
 app.locals.title = 'National Parks';
 
 app.get('/', (req,res) => {
-    res.send('Express on Vercel')
+    res.send('national park api')
 })
 
 app.get('/api/v1/locations', (request, response) => {
