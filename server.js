@@ -305,7 +305,7 @@ app.locals.locations = [
         "region": "Midwest",
         "city": "Chesterton",
         "image": "https://media.cntraveler.com/photos/5c6c25735ac5fd121f4375a1/16:9/w_4000,h_2250,c_limit/Indiana-Dunes-Nat'l-Park_A7DC44.jpg",
-        "visited": "https://ih1.redbubble.net/image.2267737849.8896/fposter,small,wall_texture,square_product,600x600.jpg"
+        "visited": "https://s3.amazonaws.com/adg-bucket/indiana-dunes-national-park-day-break/3481-medium.jpg"
     },
     {
         "id": 34,
@@ -404,7 +404,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Ashford",
         "image": "https://i.natgeofe.com/n/6e6d2eea-06d3-4ac4-94ca-2aba6f7f8757/mountain-pine-trees_3x2.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/mount-rainier-national-park-wildflowers/3133-medium.jpg"
     },  
     {
         "id": 45,
@@ -413,7 +413,7 @@ app.locals.locations = [
         "region": "Mid-Atlantic",
         "city": "Glen Jean",
         "image": "https://assets.vogue.com/photos/60342bd00a6b7990c15bf0c4/master/w_2560%2Cc_limit/EJ1K0R.jpg",
-        "visited": false
+        "visited": "https://m.media-amazon.com/images/I/61MJOLoCjIL.jpg"
     },
     {
         "id": 46,
@@ -422,7 +422,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Sedro-Woolley",
         "image": "https://www.tripsavvy.com/thmb/UW8JknuD_U4DnAx3_UXlcTOtT-Q=/3072x2048/filters:no_upscale():max_bytes(150000):strip_icc()/ViewoflakeinmountainsMountShuksanNorthCascadesNationalPark-139d1b4e5218411cb43dcd6152588b44.jpg",
-        "visited": false
+        "visited": "https://m.media-amazon.com/images/I/713BDxbBq+L.jpg"
     },
     {
         "id": 47,
@@ -431,7 +431,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Port Angeles",
         "image": "https://www.tripsavvy.com/thmb/1W0WJCoDqKaJmf8FKTXeqlr81p4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/DSCF0144-3c0cb60c0a0d4931bb6c9c092bb204ad.jpg",
-        "visited": false
+        "visited": "https://ih1.redbubble.net/image.4615880220.6390/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
         "id": 48,
@@ -440,7 +440,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Holbrook",
         "image": "https://arizonahighways.com/sites/default/files/activities/0518_petrifiedforest.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/petrified-forest-national-park-painted-hills/3147-medium.jpg"
     },
     {
         "id": 49,
@@ -449,7 +449,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Paicines",
         "image": "https://cdn.aarp.net/content/dam/aarp/home-and-family/family-and-friends/2023/06/1140-sunrise-pinnacles-national-park-california.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/pinnacles-national-park-soaring-sunrise/3017-medium.jpg"
     },
     {
         "id": 50,
@@ -458,7 +458,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Crescent City",
         "image": "https://morethanjustparks.com/wp-content/uploads/2020/09/2Q3A5635-2.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/redwood-national-park/1321-medium.jpg"
     },
     {
         "id": 51,
@@ -467,7 +467,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Estes Park",
         "image": "https://cdn.outsideonline.com/wp-content/uploads/2020/03/12/gem-lake-and-longs-peak-sunset_h.jpg?width=1200",
-        "visited": false
+        "visited": "https://i.icanvas.com/LAN112?d=2&sh=v&p=1&bg=g"
     },
     {
         "id": 52,
@@ -476,7 +476,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Tucson",
         "image": "https://symphony.cdn.tambourine.com/westward-look-wyndham/media/saguaro-national-park-5f68e9c55fafd.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/saguaro-national-park-desert-delight/2670-medium.jpg"
     },
     {
         "id": 53,
@@ -485,7 +485,7 @@ app.locals.locations = [
         "region": "National Capital",
         "city": "Luray",
         "image": "https://cdn.britannica.com/79/176979-050-DC64B229/Little-Stony-Man-Cliffs-Blue-Ridge-Mountains.jpg",
-        "visited": false
+        "visited": "https://snpbooks.org/wp-content/uploads/2017/01/SNP-FALL-RETRO-POSTER.jpg"
     },
     {
         "id": 54,
@@ -494,7 +494,7 @@ app.locals.locations = [
         "region": "Midwest",
         "city": "Medora",
         "image": "https://www.midwestliving.com/thmb/EoD4O7SAxz14e6yuLGS8y7R7LVQ=/1500x0/filters:no_upscale():max_bytes(200000):strip_icc()/TRNP-Header-bfc5d0cb0299485ca64ee4454caed321.png",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/theodore-roosevelt-national-park-bison/3009-medium.jpg"
     },
     {
         "id": 55,
@@ -503,7 +503,7 @@ app.locals.locations = [
         "region": "Southeast",
         "city": "Cruz Bay",
         "image": "https://res.cloudinary.com/sagacity/image/upload/c_crop,h_2803,w_4200,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1200/Virgin_Islands_National_Park_tjblao.jpg",
-        "visited": false
+        "visited": "https://m.media-amazon.com/images/I/71H40XdQVvL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "id": 56,
@@ -512,7 +512,7 @@ app.locals.locations = [
         "region": "Midwest",
         "city": "International Falls",
         "image": "https://img.apmcdn.org/4771e42719bdfdf41b22b39412d219abc5555d2d/uncropped/3d2587-20090925-kabetogama.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/voyageurs-national-park/1672-medium.jpg"
     },
     {
         "id": 57,
@@ -521,7 +521,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Alamogordo",
         "image": "https://www.fodors.com/wp-content/uploads/2023/10/0-HERO-Shutterstock-123300241.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/whitesandsnationalpark/2711-medium.jpg"
     },
     {
         "id": 58,
@@ -530,7 +530,7 @@ app.locals.locations = [
         "region": "Midwest",
         "city": "Hot Springs",
         "image": "https://mediaim.expedia.com/destination/9/73e199c4ae7fbb3ce0fcb4025634d8dc.jpg",
-        "visited": false
+        "visited": "https://m.media-amazon.com/images/I/61yJlZk8HvL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "id": 59,
@@ -539,7 +539,7 @@ app.locals.locations = [
         "region": "Alaska",
         "city": "Copper Center",
         "image": "https://www.expeditionsalaska.com/wp-content/uploads/2017/03/11_jun0896-1.jpg",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/wrangell-st-elias-national-park/1674-medium.jpg"
     },
     {
         "id": 60,
@@ -548,7 +548,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "West Yellowstone",
         "image": "https://cdn.outsideonline.com/wp-content/uploads/2019/10/23/geyser-yelowstone-burst_h.jpg",
-        "visited": false
+        "visited": "https://i.pinimg.com/736x/74/f1/0c/74f10c6a6b800f7df83138358577ca62.jpg"
     },
     {
         "id": 61,
@@ -557,7 +557,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Yosemite Valley",
         "image": "https://www.hertz.com/content/dam/hertz/global/blog-articles/planning-a-trip/yosemite/Yosemite-National-Park-Header.rendition.medium.jpg",
-        "visited": false
+        "visited": "https://129385797.cdn6.editmysite.com/uploads/1/2/9/3/129385797/s303704766893383711_p23_i1_w2560.jpeg?width=2400&optimize=medium"
     },
     {
         "id": 62,
@@ -566,7 +566,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "city": "Springdale",
         "image": "https://a.cdn-hotels.com/gdcs/production21/d594/67824cc8-c13c-4cfa-b687-4f948864e4c9.jpg?impolicy=fcrop&w=800&h=533&q=medium",
-        "visited": false
+        "visited": "https://s3.amazonaws.com/adg-bucket/zion-national-park-the-promised-land/2674-medium.jpg"
     }
   
 ]
