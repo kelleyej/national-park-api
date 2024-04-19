@@ -35,7 +35,7 @@ app.locals.locations = [
         "region": "Intermountain",
         "image": "https://images.ctfassets.net/0wjmk6wgfops/6X7stlHaF9n3Nkfkzc99Tc/af09bb17eaf3425d737373b6f418bfbf/Delicate_Artch_resize_AdobeStock_333825728.jpeg?q=70",
         "city": "Moab",
-        "visited": "https://ih1.redbubble.net/image.2330132969.1160/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+        "visited": "https://www.adventureresponsibly.co/cdn/shop/products/Arches_Poster_Print3_2000x.jpg?v=1571608967"
     },
     {
         "id": 4,
@@ -116,7 +116,7 @@ app.locals.locations = [
         "region": "Pacific West",
         "city": "Ventura",
         "image": "https://i.natgeofe.com/n/77da8c99-8278-4eb3-8a7b-75a0044355af/resized-NationalGeographic_2206862_2x1.jpg",
-        "visited": "https://ih1.redbubble.net/image.2901542436.3714/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+        "visited": "https://s3.amazonaws.com/adg-bucket/channel-islands-national-park-sea-lion/2658-medium.jpg"
     },
     {
         "id": 13,
@@ -125,7 +125,7 @@ app.locals.locations = [
         "region": "Southeast",
         "city": "Hopkins",
         "image": "https://www.southernliving.com/thmb/Nz1gx0a6eEXVuZv8j1J73-azPxA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/congaree_boardwalk_trail_2462202_85-1-c6f12d8ef71e4cec9edf7a336906849c.jpg",
-        "visited": "https://ih1.redbubble.net/image.2901562744.4257/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+        "visited": "https://i.pinimg.com/originals/81/fe/7f/81fe7f46ac2b2a51760bc4e4a1e7ba9f.jpg"
     },
     {
         "id": 14,
