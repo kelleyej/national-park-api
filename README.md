@@ -4,7 +4,7 @@ There is no setup to use this API! The API does **not** need to be run locally a
 
 BASE URL: https://national-park-ce3a01ee1a6f.herokuapp.com/api/v1
 
-The API allows you to make GET requests. 
+The API allows you to make GET requests and is meant to be used with the following frontend: https://github.com/kelleyej/pine-project
 
 | **VERB** | **URL** | **REQUEST BODY** | **SAMPLE RESPONSE** |
 | -------- | ------- | ---------------- | ------------------- |
