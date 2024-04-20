@@ -10,3 +10,5 @@ The API allows you to make GET requests.
 | -------- | ------- | ---------------- | ------------------- |
 | GET all National Parks| /locations | None | `[ { id: "1", name: "National Park name" city: "city name", state: "state name", region: "region name", image: "someURL", visited: "someURL", ... ] }` |
 | GET a single National Park | /locations/:id | None | `[ { id: "1", name: "National Park name" city: "city name", state: "state name", region: "region name", image: "someURL", visited: "someURL"]}` |
+
+This is a test.
