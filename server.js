@@ -589,60 +589,6 @@ app.get('/api/v1/locations/:id', (request, response) => {
     response.status(200).json(filteredPark)
 })
 
-// app.post('/api/v1/locations', (request, response) => {
-//     const id = Date.now();
-//     const park = request.body; 
-
-//     for(let requiredParameter of ['name', 'state', 'region', 'busiestMonth']){
-//         if(!park[requiredParameter]){
-//             response
-//             .status(422)
-//             .send({error: `Expected format: {name: <String>, state: <String>, region: <String>, busiestMonth: <String>}. You're missing a '${requiredParameter}' property.`})
-//             return
-//         }
-//     }
-
-//     const { name, state, region, busiestMonth } = request.body; 
-//     app.locals.parks.push({ id, name, state, region, busiestMonth })
-//     response.status(201).json({ id, name, state, region, busiestMonth })
-// })
-
-// app.delete('/api/v1/locations/:id', (request, response) => {
-//     const specificPark = app.locals.locations.find(park => park.id === request.params.id)
-//     let parkIndex = app.locals.locations.indexOf(specificPark)
-//     let deletedPark = app.locals.locations.splice(parkIndex, 1)
-//     if(parkIndex === -1){
-//        response.sendStatus(404) 
-//     } else {
-//        response.send(deletedPark) 
-//     }
-// })
-
-// app.put('/api/v1/locations/:id', (request, response) => {
-//     const { body, params: {id } } = request; 
-//     const specificPark = app.locals.locations.find(park => park.id === id)
-//     let parkIndex = app.locals.locations.indexOf(specificPark)
-//     if(parkIndex === -1){
-//         response.sendStatus(404)
-//     } else {
-//        app.locals.locations[parkIndex] = { id: id, ...body }
-//     return response.sendStatus(200) 
-//     }
-// })
-
-// app.patch('/api/v1/locations/:id', (request, response) => {
-//     const { body, params: { id } } = request; 
-//     const specificPark = app.locals.locations.find(park => park.id === id)
-//     let parkIndex = app.locals.locations.indexOf(specificPark)
-//     if(parkIndex === -1){
-//         return response.sendStatus(404)
-//     } else {
-//         app.locals.locations[parkIndex] = {...app.locals.locations[parkIndex], ...body}
-//     return response.sendStatus(200)
-//     }
-    
-// })
-
 app.listen(app.get('port'), () => {
     console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
 })
