@@ -565,7 +565,6 @@ app.locals.locations = [
         "image": "https://a.cdn-hotels.com/gdcs/production21/d594/67824cc8-c13c-4cfa-b687-4f948864e4c9.jpg?impolicy=fcrop&w=800&h=533&q=medium",
         "visited": "https://s3.amazonaws.com/adg-bucket/zion-national-park-the-promised-land/2674-medium.jpg"
     }
-  
 ]
 
 app.locals.title = 'National Parks';
