@@ -8,7 +8,7 @@ app.use(cors());
   
 app.locals.locations = [
     {
-        "id": 1,
+        "id": "1",
         "name": "Acadia National Park",
         "state": "Maine",
         "region": "Northeast",
@@ -17,7 +17,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/acadianationalparksecrets-of-the-sea/2703-medium.jpg"
     },
     {
-        "id": 2,
+        "id": "2",
         "name": "National Park of American Samoa",
         "state": "American Samoa",
         "region": "Pacific",
@@ -26,7 +26,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/national-park-of-american-samoa/1631-medium.jpg"
     },
     {
-        "id": 3,
+        "id": "3",
         "name": "Arches National Park",
         "state": "Utah",
         "region": "Intermountain",
@@ -35,7 +35,7 @@ app.locals.locations = [
         "visited": "https://www.adventureresponsibly.co/cdn/shop/products/Arches_Poster_Print3_2000x.jpg?v=1571608967"
     },
     {
-        "id": 4,
+        "id": "4",
         "name": "Badlands National Park",
         "state": "South Dakota",
         "region": "Midwest",
@@ -44,7 +44,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/badlands-national-park-the-good-life/1368-medium.jpg"
     },
     {
-        "id": 5,
+        "id": "5",
         "name": "Big Bend National Park",
         "state": "Texas",
         "region": "Intermountain",
@@ -53,7 +53,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/big-bend-nationa-park-mule-deer/3344-medium.jpg"
     },
     {
-        "id": 6,
+        "id": "6",
         "name": "Biscayne National Park",
         "state": "Florida",
         "region": "Southeast",
@@ -62,7 +62,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/715anmY6XeL._AC_UF894,1000_QL80_.jpg"
     },
     {
-        "id": 7,
+        "id": "7",
         "name": "Black Canyon Of The Gunnison National Park",
         "state": "Colorado",
         "region": "Intermountain",
@@ -71,7 +71,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/black-canyon-of-the-gunnison-nationalpark-painted-wall/2423-medium.jpg"
     },
     {
-        "id": 8,
+        "id": "8",
         "name": "Bryce Canyon National Park",
         "state": "Utah",
         "region": "Intermountain",
@@ -80,7 +80,7 @@ app.locals.locations = [
         "visited": "https://i.pinimg.com/564x/54/8d/cf/548dcf64a5077f19cd6db4c65145196b.jpg"
     },
     {
-        "id": 9,
+        "id": "9",
         "name": "Canyonlands National Park",
         "state": "Utah",
         "region": "Intermountain",
@@ -89,7 +89,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/canyonlands-national-park-coyote/2715-medium.jpg"
     },
     {
-        "id": 10,
+        "id": "10",
         "name": "Capitol Reef National Park",
         "state": "Utah",
         "region": "Intermountain",
@@ -98,7 +98,7 @@ app.locals.locations = [
         "visited": "https://i.pinimg.com/1200x/0a/bb/71/0abb71d3a5def39841474ee97ac5230f.jpg"
     },
     {
-        "id": 11,
+        "id": "11",
         "name": "Carlsbad Caverns National Park",
         "state": "New Mexico",
         "region": "Intermountain",
@@ -107,7 +107,7 @@ app.locals.locations = [
         "visited": "https://ih1.redbubble.net/image.2428242743.1438/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
-        "id": 12,
+        "id": "12",
         "name": "Channel Islands National Park",
         "state": "California",
         "region": "Pacific West",
@@ -116,7 +116,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/channel-islands-national-park-sea-lion/2658-medium.jpg"
     },
     {
-        "id": 13,
+        "id": "13",
         "name": "Congaree National Park",
         "state": "South Carolina",
         "region": "Southeast",
@@ -125,7 +125,7 @@ app.locals.locations = [
         "visited": "https://i.pinimg.com/originals/81/fe/7f/81fe7f46ac2b2a51760bc4e4a1e7ba9f.jpg"
     },
     {
-        "id": 14,
+        "id": "14",
         "name": "Crater Lake National Park",
         "state": "Oregon",
         "region": "Pacific West",
@@ -134,7 +134,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/crater-lake-national-park-watchman-trail/3226-medium.jpg"
     },
     {
-        "id": 15,
+        "id": "15",
         "name": "Cuyahoga Valley National Park",
         "state": "Ohio",
         "region": "Midwest",
@@ -143,7 +143,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/816jaiUqWtL._AC_UF894,1000_QL80_.jpg"
     },
     {
-        "id": 16,
+        "id": "16",
         "name": "Death Valley National Park",
         "state": "California",
         "region": "Pacific West",
@@ -152,7 +152,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/death-valley-national-park-living-it-up-kc/2115-medium.jpg"
     },
     {
-        "id": 17,
+        "id": "17",
         "name": "Denali National Park & Preserve",
         "state": "Alaska",
         "region": "Alaska",
@@ -161,7 +161,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/denali-national-park-moose/3038-medium.jpg"
     },
     {
-        "id": 18,
+        "id": "18",
         "name": "Dry Tortugas National Park",
         "state": "Florida",
         "region": "Southeast",
@@ -170,7 +170,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/dry-tortugas-national-park-lighthouse/1666-medium.jpg"
     },
     {
-        "id": 19,
+        "id": "19",
         "name": "Everglades National Park",
         "state": "Florida",
         "region": "Southeast",
@@ -179,7 +179,7 @@ app.locals.locations = [
         "visited": "https://i.pinimg.com/originals/9c/31/f8/9c31f88aa16c79c7b6ea228d3c8d0101.jpg"
     },
     {
-        "id": 20,
+        "id": "20",
         "name": "Gates Of The Arctic National Park & Preserve",
         "state": "Alaska",
         "region": "Alaska",
@@ -188,7 +188,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/gates-of-the-arctic-national-park/1663-medium.jpg"
     },
     {
-        "id": 21,
+        "id": "21",
         "name": "Gateway Arch National Park",
         "state": "Missouri",
         "region": "Midwest",
@@ -197,7 +197,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/gateway-arch-national-park-birds-eye-view/3442-medium.jpg"
     },
     {
-        "id": 22,
+        "id": "22",
         "name": "Glacier National Park",
         "state": "Montana",
         "region": "Intermountain",
@@ -206,7 +206,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/71SZb38puuL._AC_UF894,1000_QL80_.jpg"
     },
     {
-        "id": 23,
+        "id": "23",
         "name": "Glacier Bay National Park & Preserve",
         "state": "Alaska",
         "region": "Alaska",
@@ -215,7 +215,7 @@ app.locals.locations = [
         "visited": "https://static.displate.com/270x380/displate/2021-09-07/f0a88d090e06a9138dde3665e45eb9c8_ff4d03f1c3566608bbf014f102e88f7a.jpg"
     },
     {
-        "id": 24,
+        "id": "24",
         "name": "Grand Canyon National Park",
         "state": "Arizona",
         "region": "Intermountain",
@@ -224,7 +224,7 @@ app.locals.locations = [
         "visited": "https://www.magicmurals.com/media/amasty/webp/catalog/product/cache/155d73b570b90ded8a140526fcb8f2da/A/L/ALJOEAND116280_1_jpg.webp"
     },
     {
-        "id": 25,
+        "id": "25",
         "name": "Grand Teton National Park",
         "state": "Wyoming",
         "region": "Intermountain",
@@ -233,7 +233,7 @@ app.locals.locations = [
         "visited": "https://ih1.redbubble.net/image.1925778753.9691/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
-        "id": 26,
+        "id": "26",
         "name": "Great Basin National Park",
         "state": "Nevada",
         "region": "Intermountain",
@@ -242,7 +242,7 @@ app.locals.locations = [
         "visited": "https://ih1.redbubble.net/image.2528681623.3106/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
-        "id": 27,
+        "id": "27",
         "name": "Great Sand Dunes National Park & Preserve",
         "state": "Colorado",
         "region": "Intermountain",
@@ -251,7 +251,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/great-sand-dunes-national-park-shifting-hills/3093-medium.jpg"
     },
     {
-        "id": 28,
+        "id": "28",
         "name": "Great Smoky Mountains National Park",
         "state": "North Carolina, Tennessee",
         "region": "Southeast",
@@ -260,7 +260,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/71CvgDrhwXL._AC_UF894,1000_QL80_.jpg"
     },
     {
-        "id": 29,
+        "id": "29",
         "name": "Guadalupe Mountains National Park",
         "state": "Texas",
         "region": "Intermountain",
@@ -269,7 +269,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/guadalupe-mountains-national-park-early-bird/2666-medium.jpg"
     },
     {
-        "id": 30,
+        "id": "30",
         "name": "Haleakalā National Park",
         "state": "Hawaii",
         "region": "Pacific West",
@@ -278,7 +278,7 @@ app.locals.locations = [
         "visited": "https://static.displate.com/857x1200/displate/2021-01-01/edb5057e5a835eadc868d4ef9ff76dd3_b887ec5605c0df3940a1a4747310b0b2.jpg"
     },
     {
-        "id": 31,
+        "id": "31",
         "name": "Hawai'i Volcanoes National Park",
         "state": "Hawaii",
         "region": "Pacific West",
@@ -287,7 +287,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/hawai-i-volcanoes-national-park/1326-medium.jpg"
     },
     {
-        "id": 32,
+        "id": "32",
         "name": "Hot Springs National Park",
         "state": "Arkansas",
         "region": "Midwest",
@@ -296,7 +296,7 @@ app.locals.locations = [
         "visited": "https://static.displate.com/270x380/displate/2021-04-01/e5d89083d13ee5561b7492261a8c1c60_c54cc0a523cef52732ed4ecc4197d9a8.jpg"
     },
     {
-        "id": 33,
+        "id": "33",
         "name": "Indiana Dunes National Park",
         "state": "Indiana",
         "region": "Midwest",
@@ -305,7 +305,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/indiana-dunes-national-park-day-break/3481-medium.jpg"
     },
     {
-        "id": 34,
+        "id": "34",
         "name": "Isle Royale National Park",
         "state": "Michigan",
         "region": "Midwest",
@@ -314,7 +314,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/61QQjyJA-qL._AC_UF894,1000_QL80_.jpg"
     },
     {
-        "id": 35,
+        "id": "35",
         "name": "Joshua Tree National Park",
         "state": "California",
         "region": "Pacific West",
@@ -323,7 +323,7 @@ app.locals.locations = [
         "visited": "https://ih1.redbubble.net/image.4181389847.8600/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
-        "id": 36,
+        "id": "36",
         "name": "Katmai National Park & Preserve",
         "state": "Alaska",
         "region": "Alaska",
@@ -332,7 +332,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/71hI+wdmSgL._AC_UF894,1000_QL80_.jpg"
     },
     {
-        "id": 37,
+        "id": "37",
         "name": "Kenai Fjords National Park",
         "state": "Alaska",
         "region": "Alaska",
@@ -341,7 +341,7 @@ app.locals.locations = [
         "visited": "https://static.displate.com/857x1200/displate/2021-10-10/7105a6d4b473e8bf754d1704ffa09a2a_0613f3e4c70079ecd987e39a613010ef.jpg"
     },
     {
-        "id": 38,
+        "id": "38",
         "name": "Sequoia & Kings Canyon National Parks",
         "state": "California",
         "region": "Pacific West",
@@ -350,7 +350,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/71UriGL+yFL._AC_UF894,1000_QL80_.jpg"
     },
     {
-        "id": 39,
+        "id": "39",
         "name": "Kobuk Valley National Park",
         "state": "Alaska",
         "region": "Alaska",
@@ -359,7 +359,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/kobuk-valley-national-park-wolves/3253-medium.jpg"
     },
     {
-        "id": 40,
+        "id": "40",
         "name": "Lake Clark National Park & Preserve",
         "state": "Alaska",
         "region": "Alaska",
@@ -368,7 +368,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/lakeclarknationalparkmoonlighting/2994-medium.jpg"
     },
     {
-        "id": 41,
+        "id": "41",
         "name": "Lassen Volcanic National Park",
         "state": "California",
         "region": "Pacific West",
@@ -377,7 +377,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/lassen-volcanic/1657-medium.jpg"
     },
     {
-        "id": 42,
+        "id": "42",
         "name": "Mammoth Cave National Park",
         "state": "Kentucky",
         "region": "Midwest",
@@ -386,7 +386,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/mammoth-cave-national-park/1611-medium.jpg"
     },
     {
-        "id": 43,
+        "id": "43",
         "name": "Mesa Verde National Park",
         "state": "Colorado",
         "region": "Intermountain",
@@ -395,7 +395,7 @@ app.locals.locations = [
         "visited": "https://www.mesaverde.org/sites/mesaverde.org/files/imagecache/lightbox_full/isbn_images/cliff%20palace%20retro.jpg"
     },
     {
-        "id": 44,
+        "id": "44",
         "name": "Mount Rainier National Park",
         "state": "Washington",
         "region": "Pacific West",
@@ -404,7 +404,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/mount-rainier-national-park-wildflowers/3133-medium.jpg"
     },  
     {
-        "id": 45,
+        "id": "45",
         "name": "New River Gorge National Park & Preserve",
         "state": "West Virginia",
         "region": "Mid-Atlantic",
@@ -413,7 +413,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/61MJOLoCjIL.jpg"
     },
     {
-        "id": 46,
+        "id": "46",
         "name": "North Cascades National Park",
         "state": "Washington",
         "region": "Pacific West",
@@ -422,7 +422,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/713BDxbBq+L.jpg"
     },
     {
-        "id": 47,
+        "id": "47",
         "name": "Olympic National Park",
         "state": "Washington",
         "region": "Pacific West",
@@ -431,7 +431,7 @@ app.locals.locations = [
         "visited": "https://ih1.redbubble.net/image.4615880220.6390/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
-        "id": 48,
+        "id": "48",
         "name": "Petrified Forest National Park",
         "state": "Arizona",
         "region": "Intermountain",
@@ -440,7 +440,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/petrified-forest-national-park-painted-hills/3147-medium.jpg"
     },
     {
-        "id": 49,
+        "id": "49",
         "name": "Pinnacles National Park",
         "state": "California",
         "region": "Pacific West",
@@ -449,7 +449,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/pinnacles-national-park-soaring-sunrise/3017-medium.jpg"
     },
     {
-        "id": 50,
+        "id": "50",
         "name": "Redwood National and State Parks",
         "state": "California",
         "region": "Pacific West",
@@ -458,7 +458,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/redwood-national-park/1321-medium.jpg"
     },
     {
-        "id": 51,
+        "id": "51",
         "name": "Rocky Mountain National Park",
         "state": "Colorado",
         "region": "Intermountain",
@@ -467,7 +467,7 @@ app.locals.locations = [
         "visited": "https://i.icanvas.com/LAN112?d=2&sh=v&p=1&bg=g"
     },
     {
-        "id": 52,
+        "id": "52",
         "name": "Saguaro National Park",
         "state": "Arizona",
         "region": "Intermountain",
@@ -476,7 +476,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/saguaro-national-park-desert-delight/2670-medium.jpg"
     },
     {
-        "id": 53,
+        "id": "53",
         "name": "Shenandoah National Park",
         "state": "Virginia",
         "region": "National Capital",
@@ -485,7 +485,7 @@ app.locals.locations = [
         "visited": "https://snpbooks.org/wp-content/uploads/2017/01/SNP-FALL-RETRO-POSTER.jpg"
     },
     {
-        "id": 54,
+        "id": "54",
         "name": "Theodore Roosevelt National Park",
         "state": "North Dakota",
         "region": "Midwest",
@@ -494,7 +494,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/theodore-roosevelt-national-park-bison/3009-medium.jpg"
     },
     {
-        "id": 55,
+        "id": "55",
         "name": "Virgin Islands National Park",
         "state": "U.S. Virgin Islands",
         "region": "Southeast",
@@ -503,7 +503,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/71H40XdQVvL._AC_UF894,1000_QL80_.jpg"
     },
     {
-        "id": 56,
+        "id": "56",
         "name": "Voyageurs National Park",
         "state": "Minnesota",
         "region": "Midwest",
@@ -512,7 +512,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/voyageurs-national-park/1672-medium.jpg"
     },
     {
-        "id": 57,
+        "id": "57",
         "name": "White Sands National Park",
         "state": "New Mexico",
         "region": "Intermountain",
@@ -521,7 +521,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/whitesandsnationalpark/2711-medium.jpg"
     },
     {
-        "id": 58,
+        "id": "58",
         "name": "Wind Cave National Park",
         "state": "South Dakota",
         "region": "Midwest",
@@ -530,7 +530,7 @@ app.locals.locations = [
         "visited": "https://m.media-amazon.com/images/I/61yJlZk8HvL._AC_UF894,1000_QL80_.jpg"
     },
     {
-        "id": 59,
+        "id": "59",
         "name": "Wrangell - St. Elias National Park & Preserve",
         "state": "Alaska",
         "region": "Alaska",
@@ -539,7 +539,7 @@ app.locals.locations = [
         "visited": "https://s3.amazonaws.com/adg-bucket/wrangell-st-elias-national-park/1674-medium.jpg"
     },
     {
-        "id": 60,
+        "id": "60",
         "name": "Yellowstone National Park",
         "state": "Wyoming, Montana, Idaho",
         "region": "Intermountain",
@@ -548,7 +548,7 @@ app.locals.locations = [
         "visited": "https://i.pinimg.com/736x/74/f1/0c/74f10c6a6b800f7df83138358577ca62.jpg"
     },
     {
-        "id": 61,
+        "id": "61",
         "name": "Yosemite National Park",
         "state": "California",
         "region": "Pacific West",
@@ -557,7 +557,7 @@ app.locals.locations = [
         "visited": "https://ih1.redbubble.net/image.1296799813.4323/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
-        "id": 62,
+        "id": "62",
         "name": "Zion National Park",
         "state": "Utah",
         "region": "Intermountain",
